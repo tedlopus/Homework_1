@@ -1,29 +1,30 @@
+/* Sets a border box style applys to everything and allows sizing for containers to be easier. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Sets the background color of the body to a light grey. */
 body {
     background-color: #d9dcd6;
 }
-
+/* The padding is 20px, the font family is Trebuchet MS, the background color is a shade of blue with white color font. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* The headers are lined on the right in a row with size 48 font. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Sets the header text for the class "seo" color to white. */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Styles the class "header" for all of div to a small padding margined 20 px from the right and positions it to the right with font family Gill Sans and font size of 20. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Sets the unlisted elements in the class "header" div to no style of list, i.e. no numbers or markers. */
 .header div ul {
     list-style-type: none;
 }
-
+/* Sets the unlisted elements in the class "header" div unlisted list into an inline block row 25 px from the left margin instead of a column. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Sets the text color for all anchor elements to white. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* The font-size for the paragraph is 16. */
 p {
     font-size: 16px;
 }
-
+/* Links the header picture to the class "hero" in the HTML with a height of 800px and width of 100% of the website pafe, centered. */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Positions the class "float-left" 25 px from the right of the margin. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Positions the class "float-right" 25 px from the left of the margin. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Positions the class "content" 20 px from the right of the left margin and gives it a width of 75% of the website page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Styles the benefits class 20 px to the left of the right margin, adds padding of 20px, floats them to the right side of the page, with a width of 20% of the web
+page and a height of 100% of its container, has a font family of Gill Sans, pushes the elements below floating elements and has a light blue background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +87,56 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* The benefit, Lead Generation, is margined 32 px up from the bottom margin of the container and a has text color of white. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* The benefit, Lead Generation, is margined 32 px up from the bottom margin of the container and a has text color of white. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* The benefit paragrpah, Lead Generation, is margined 32 px up from the bottom margin of the container and a has text color of white. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* The benefit heading, Lead Generation, aligned in the center and a font size of 10. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* The benefit heading, Brand Awareness, aligned in the center and a font size of 10. */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* The benefit heading, Cost Management, aligned in the center and a font size of 10. */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* The image for the lead generation benefit is displayed in a block form with a 10px margin calculated by the browser, with a max width of 150px. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The image for the brand awareness benefit is displayed in a block form with a 10px margin calculated by the browser, with a max width of 150px. */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The image for the cost management benefit is displayed in a block form with a 10px margin calculated by the browser, with a max width of 150px. */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* search-engine-optimization id is set 20px from the bottom of the container, the padding is 50px, the height is 300px, the font-family is Gill Sans, the background
+color is blue witha  text color of white. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +145,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* .online-reputation-management id is set 20px from the bottom of the container, the padding is 50px, the height is 300px, the font-family is Gill Sans, the background
+color is blue witha  text color of white. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +155,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* social-media-marketing id is set 20px from the bottom of the container, the padding is 50px, the height is 300px, the font-family is Gill Sans, the background
+color is blue witha  text color of white. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +165,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* The image for .search-engine-optimization id set at a maximum height of 200px. */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* The image for .online-reputation-management id set at a maximum height of 200px. */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* The image for .social-media-marketing id set at a maximum height of 200px. */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* The h2 heading for .search-engine-optimization id has font size of 36 and is moved 20 px from the bottom of the container. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* The h2 heading for .online-reputation-management id has font size of 36 and is moved 20 px from the bottom of the container. */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* The h2 heading for .social-media-marketing id has font size of 36 and is moved 20 px from the bottom of the container. */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* The padding is of size 30px, pushes the element below floated elemetns and the font-family is Trebuchet MS aligned in the center. */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Heading 2 in the footer has a font size of 20 */
 .footer h2 {
     font-size: 20px;
 }
